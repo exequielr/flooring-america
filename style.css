@@ -1,0 +1,52 @@
+/*
+Theme Name: Flooring America
+Theme URI: https://wordpress.org/themes/flooring-america/
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: flooringamerica
+*/
+.vertical-carousel__content {
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.vertical-carousel {
+  width: 100%;
+  height: 700px;
+  overflow-y: hidden;
+  padding: 0;
+}
+
+.vertical-carousel__nav {
+  position: absolute !important;
+  right: 0;
+  z-index: 7;
+}
+
+.vertical-carousel__controls {
+  position: absolute !important;
+  bottom: 0;
+  z-index: 7;
+}
+
+.floors-carousel__slider {
+  display: flex;
+  width: auto;
+  overflow-x: scroll;
+}
+
+.floors-carousel__item {
+  min-width: 690px;
+  margin: 0 1rem;
+}
+
+.floors-carousel__slider::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: 0;
+}
